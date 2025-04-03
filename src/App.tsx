@@ -1,7 +1,12 @@
-import { Button } from "./components/ui/button";
+import { BrowserRouter } from "react-router";
+import AppRouter from "./app/routes/routes";
 
 function App() {
-  return <Button>Teste</Button>;
+  return (
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
+  );
 }
 
 export default App;
