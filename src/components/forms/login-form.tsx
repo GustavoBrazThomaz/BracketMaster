@@ -54,9 +54,9 @@ export function LoginForm({
           </form>
           <div className="bg-muted relative hidden md:block">
             <img
-              src="https://images.pexels.com/photos/6532598/pexels-photo-6532598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-              alt="Placeholder"
-              className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
+              src="https://images.pexels.com/photos/7862599/pexels-photo-7862599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Bracket Master login banner"
+              className="absolute inset-0 h-full w-full object-cover pointer-events-none dark:brightness-[0.2] dark:grayscale"
             />
           </div>
         </CardContent>
