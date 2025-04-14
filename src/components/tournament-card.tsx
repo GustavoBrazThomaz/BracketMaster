@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
-import { TournamentEntity } from "@/domain/entities/Tournament.entity";
+import { TournamentEntity } from "@/domain/entities/tournament.entity";
 import { UserRound, UsersRound } from "lucide-react";
 
 type Props = {
@@ -23,7 +23,6 @@ export function TournamentCard({ tournament }: Readonly<Props>) {
             </p>
           )}
         </div>
-
       </div>
       <p>{tournament.description}</p>
       <Button disabled={!tournament._isOpen}>Ver Torneio</Button>

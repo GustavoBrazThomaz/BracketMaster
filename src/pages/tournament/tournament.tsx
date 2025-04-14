@@ -1,5 +1,5 @@
 import { Button, Container, TournamentCard } from "@/components";
-import { TournamentEntity } from "@/domain/entities/Tournament.entity";
+import { TournamentEntity } from "@/domain/entities/tournament.entity";
 import { useNavigate } from "react-router";
 
 export default function Tournament() {
